@@ -1,0 +1,48 @@
+*{margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: rgb(118, 29, 202);
+    }
+    .cont{
+        margin: 20vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons{
+        margin-top: 2rem;
+    }
+    
+    .buttons{
+    display: flex;
+    gap: 3.5rem; 
+    justify-content: center;
+    align-items: center;
+    }
+    
+    h2{
+        color: white;
+        text-align: center;
+    }
+    
+    #single{
+        border: none;
+        background-color: #6b1f1c;
+        color: white;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    
+    #multi{
+        border: none;
+        background-color: rgb(2, 14, 82);
+        color: white;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    
+    #single:hover, #multi:hover{
+        cursor: pointer;
+    }
+    
